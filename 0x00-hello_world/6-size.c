@@ -13,11 +13,13 @@ int main(void)
 	char charType;
 	int intType;
 	long int longintType;
-	long long int longlongintType; 
+	long long int longlongintType;
 	float floatType;
 
-/* sizeof evaluates the size of a variable 
+/**
+ * sizeof evaluates the size of a variable
  * prints the size of char, int, double, long int, long long int, and float
+ * %zu - format for (z)length modifier and (u)unsigned type
  */
 	printf("Size of a char: %zu bytes\n", sizeof(charType));
 	printf("Size of an int: %zu bytes\n", sizeof(intType));
