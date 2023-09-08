@@ -11,13 +11,6 @@
 int main(void)
 {
 
-/**
-* short description
-* sizeof: evaluates the size of a variable
-* printf: prints the size of %c, %s, %d ,%lf, %f, %lli
-* %zu: format for (z)length modifier and (u)unsigned type
-*/
-
 	char a;
 	int b;
 	long int c;
