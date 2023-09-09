@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* **(Prints a random number and states whether it is positive, negative or zero)
+* Prints a random number and states whether it is positive, negative or zero)
 *
 * Return: Always 0 (Success)
 */
@@ -27,7 +27,7 @@ int main(void)
 	printf("The number is negative \n");
 }
 	else
-{	
+{
 	printf("The number is zero\n");
 }
 	return (0);
