@@ -13,7 +13,10 @@ int main(void)
 
 	char letters;
 
-	/* Check to see if the current value of var prints all letters except 'q' and 'e' */
+	/**
+	 * Check to see if the current value of var prints all letters
+	 * except 'q' and 'e'
+	 */
 
 	for (letters = 'a'; letters <= 'z'; letters++)
 	{
