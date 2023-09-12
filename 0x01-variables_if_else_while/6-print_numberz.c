@@ -13,7 +13,7 @@ int main(void)
 
 	int n;
 
-	for (n = 10; n < 10; n++)
+	for (n = 0; n < 10; n++)
 	{
 
 	/* Print the value of n */
