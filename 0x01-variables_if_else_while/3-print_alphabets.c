@@ -19,18 +19,18 @@ int main(void)
 	 * While the value is true; print UPPERCASE & lowercase letters
 	 */
 
-	for (alphabets = 'A'; alphabets <= 'Z'; alphabets++)
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 	{
 
-	/* Print the value of UPPERCASE LETTERS */
+	/* Print the value of lowercase letters */
 
 		putchar (alphabets);
 	}
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	for (alphabets = 'A'; alphabets <= 'Z'; alphabets++)
 	{
 
-	/* Print the value of lowercase */
+	/* Print the value of UPPERCASE LETTERS */
 
 		putchar(alphabets);
 	}
