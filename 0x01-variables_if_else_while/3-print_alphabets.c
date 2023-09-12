@@ -35,7 +35,7 @@ int main(void)
 		putchar(alphabets);
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
