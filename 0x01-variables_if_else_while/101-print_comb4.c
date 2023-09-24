@@ -22,10 +22,10 @@ int main(void)
 				putchar((digit_03 % 10) + '0');
 
 				if (digit_01 == 7 && digit_02 == 8 && digit_03 == 9)
-				{	continue;
+					continue;
 
 						putchar(',');
-				}		putchar(' ');
+						putchar(' ');
 			}
 		}
 	}
