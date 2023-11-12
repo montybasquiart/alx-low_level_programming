@@ -1,1 +1,1 @@
-# 0x02. C - Functions, nested loops
+# A README file describing what each script is doing
