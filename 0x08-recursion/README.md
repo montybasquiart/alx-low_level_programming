@@ -35,5 +35,5 @@ _FYI: The standard library provides a different function: **sqrt**. Run **man sq
 
 8. Inception. Now, before you bother telling me it's impossible... - [101-wildcmp.c](./101-wildcmp.c) - A  function that compares two strings and returns **1** if the strings can be considered identical, otherwise return **0**.
 * Prototype: **int wildcmp(char *s1, char *s2);**
-* **s2** can contain the special character *****.
-* The special char ***** can replace any string (including an empty string)
+* **s2** can contain the special character *.
+* The special char * can replace any string (including an empty string)
