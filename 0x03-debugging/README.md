@@ -1,4 +1,4 @@
-# A README file debugging and showing what each function is doing
+# A README file debugging
 
 0. Multiple mains - [0-main.c](./0-main.c) - A function that tests that tests if positive_or_negative() gives the correct output when given a case of 0.
 * You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function.
