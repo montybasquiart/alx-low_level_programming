@@ -1,5 +1,5 @@
-#ifndef MACROLIKE_H
-#define MACROLIKE_H
+#ifndef ABSX_H
+#define ABSX_H
 
 /**
  * File: 3-function_like_macro
