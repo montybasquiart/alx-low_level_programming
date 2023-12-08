@@ -13,6 +13,7 @@
  *
  * Description: singly linked node structure
  */
+
 typedef struct list_s
 {
 	char *str;
@@ -21,5 +22,4 @@ typedef struct list_s
 } list_t;
 
 size_t print_list(const list_t *h);
-
 #endif
