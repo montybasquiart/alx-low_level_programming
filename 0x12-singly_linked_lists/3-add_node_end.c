@@ -1,5 +1,6 @@
 #include "lists.h"
 
+int len(const char *str);
 list_t *create_node(const char *str);
 /**
  * add_node_end - a function that adds nodes to the end of the list
