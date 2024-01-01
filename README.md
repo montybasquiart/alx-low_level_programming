@@ -1,3 +1,3 @@
-This repository contains programs written for the low-level programming and algorithm track at the ALX-Software Engineering program facilitated by ALX AFRICA. I am learning about data structures, algorithms, and other low-level programming concepts while working in the C language.
+This repository contains programs and scripts written for the low-level programming and algorithm track at the ALX-Software Engineering program, facilitated by ALX AFRICA. I am learning about simple Hello, World, Variables, If, else, while, Functions & Nested loops, Debugging, Pointers, arrays, and strings, Recursion, Static libraries, argc/argv, malloc, Preprocessors, Structures & Typedef, Function pointers, Variadic functions, Singly linked lists, More singly lists, Bit manipulation, File I/O, data structures, algorithms, and other low-level programming concepts while working in the C language.
 
 
