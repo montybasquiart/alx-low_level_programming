@@ -1,10 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-/**
- * A list of all the prototypes contained in the function
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -26,4 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif // _MAIN_H_
+#endif /** _MAIN_H_ */
