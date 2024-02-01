@@ -8,6 +8,12 @@ __Read or watch:__
  * [What is difference between Dynamic and Static library (Static and Dynamic linking)](https://www.youtube.com/watch?v=eW5he5uFBNM)
  * [create dynamic libraries on Linux](https://www.google.com/#q=linux+create+dynamic+library)
 
+# General
+  * What is a dynamic library, how does it work, how to create one, and how to use it
+  * What is the environment variable **$LD_LIBRARY_PATH** and how to use it
+  * What are the differences between static and shared libraries
+  * Basic usage **nm, ldd, ldconfig**
+
 # Tasks
 
 __0. A library is not a luxury but one of the necessities of life__ - [libdynamic.so](./libdynamic.so) - A dynamic library libdynamic.so containing all the functions listed below:
@@ -54,3 +60,28 @@ Now, let's take those building blocks we made earlier and assemble them into one
 ```
 gcc -shared -o libdynamic.so *.o
 ```
+To check if everything is set up correctly and your library has the right tools (functions), you can use a command below:
+```
+nm -D liball.so
+```.
+It's like asking the computer to show you a list of all the cool tools inside your library.
+At this point, you've successfully created your Dynamic Library, and it's ready to be used by different programs. Think of it like having a toolbox that you've filled with special tools, and now you can share these tools with various projects.
+
+We used 'gcc' to compile our code:
+```
+gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+```
+We then used the command "ldd len" to print the shared library dependencies of an executable named len.
+```
+ldd len
+```
+When you run ldd len, it will show a list of shared libraries that the executable len depends on
+
+## How to use
+Time to use your toolbox! Combine your main program with the toolbox you made. Tell your computer where to find the tools by adding their location to a special list. It's like giving your computer directions to the toolbox so it can use the tools when your program runs.
+```
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+```
+ We use the 'ldd len' to confirm the library dependencies again to be sure we have the right tools.
+
+
