@@ -61,9 +61,11 @@ Now, let's take those building blocks we made earlier and assemble them into one
 gcc -shared -o libdynamic.so *.o
 ```
 To check if everything is set up correctly and your library has the right tools (functions), you can use a command below:
+
 ```
 nm -D liball.so
-```.
+```
+.
 It's like asking the computer to show you a list of all the cool tools inside your library.
 At this point, you've successfully created your Dynamic Library, and it's ready to be used by different programs. Think of it like having a toolbox that you've filled with special tools, and now you can share these tools with various projects.
 
