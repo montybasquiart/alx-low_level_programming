@@ -63,7 +63,7 @@ gcc -shared -o libdynamic.so *.o
 To check if everything is set up correctly and your library has the right tools (functions), you can use a command below:
 
 ```
-nm -D liball.so
+nm -D libdynamic.so
 ```
 .
 It's like asking the computer to show you a list of all the cool tools inside your library.
