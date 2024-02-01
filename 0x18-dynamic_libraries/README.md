@@ -77,7 +77,7 @@ We then used the command "ldd len" to print the shared library dependencies of a
 ```
 ldd len
 ```
-When you run ldd len, it will show a list of shared libraries that the executable len depends on
+When you run 'ldd len', it will show a list of shared libraries that the executable 'len' depends on
 
 ## How to use
 Time to use your toolbox! Combine your main program with the toolbox you made. Tell your computer where to find the tools by adding their location to a special list. It's like giving your computer directions to the toolbox so it can use the tools when your program runs.
