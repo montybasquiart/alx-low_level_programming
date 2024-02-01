@@ -32,9 +32,16 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+
+_If you haven’t coded all of the above functions create empty ones, with the right prototype.
+Don’t forget to push your <span style="color: red"> *main.h* </span> file in your repository, containing at least all the prototypes of the above functions._
+
 ```
 ## How To Create a Dynamic Library
-_The way to create a Dynamic Library in Linux is with the gcc command using the -c to generate the object files (.o) from the source files (.c) and the -fPIC to make the code position independent. Thus, the following command makes a bunch of .o files from each .c file in the current directory_
+_To make a Dynamic Library in Linux, use the 'gcc' command. It's like a recipe. First, it uses '-c' to create special building blocks called object files (.o) from your program's recipe book called source files (.c). Then, it adds a special touch with '-fPIC' to make sure the code is flexible.
+
+So, the command is like asking the computer to make a bunch of building blocks (.o files) from each recipe (.c file) you have in your current folder_
+
 ```
 gcc -c -fPIC *.c
 ```
