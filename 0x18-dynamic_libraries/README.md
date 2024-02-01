@@ -34,7 +34,9 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```
 _If you haven’t coded all of the above functions create empty ones, with the right prototype.
-Don’t forget to push your ```diff - main.h``` file in your repository, containing at least all the prototypes of the above functions._
+Don’t forget to push your ```html
+main.h
+``` file in your repository, containing at least all the prototypes of the above functions._
 
 ## How To Create a Dynamic Library
 _To make a Dynamic Library in Linux, use the 'gcc' command. It's like a recipe. First, it uses '-c' to create special building blocks called object files (.o) from your program's recipe book called source files (.c). Then, it adds a special touch with '-fPIC' to make sure the code is flexible.
