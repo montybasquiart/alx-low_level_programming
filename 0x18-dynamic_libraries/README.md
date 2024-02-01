@@ -73,7 +73,7 @@ We used 'gcc' to compile our code:
 ```
 gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
 ```
-We then used the command "ldd len" to print the shared library dependencies of an executable named len.
+We then used the command 'ldd len' to print the shared library dependencies of an executable named len.
 ```
 ldd len
 ```
@@ -87,3 +87,4 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
  We use the 'ldd len' to confirm the library dependencies again to be sure we have the right tools.
 
 
+__1. Without libraries what have we? We have no past and no future__ - [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) - A script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
