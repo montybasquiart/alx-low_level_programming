@@ -32,7 +32,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
 ```
 _If you haven’t coded all of the above functions create empty ones, with the right prototype.
 Don’t forget to push your ```main.h``` file in your repository, containing at least all the prototypes of the above functions._
@@ -49,11 +48,9 @@ So, the command is like asking the computer to make a bunch of building blocks (
 
 ```
 gcc -c -fPIC *.c
-
 ```
-Now, let's take those building blocks we made earlier and assemble them into one big library. To do this and make it a Dynamic Library, we still use 'gcc', but this time we add a special '-shared' trick. The '-o' part is like telling the computer the name you want to give to your big library file.
+Now, let's take those building blocks we made earlier and assemble them into one big library. To do this and make it a Dynamic Library, we still use 'gcc', but this time we add a special **'-shared'** trick. The **'-o'** part is like telling the computer the name you want to give to your big library file.
 
 ```
 gcc -shared -o libdynamic.so *.o
-
 ```
