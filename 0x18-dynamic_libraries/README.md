@@ -89,5 +89,4 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 ##
 __1. Without libraries what have we? We have no past and no future__ - [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) - A script that creates a dynamic library called *liball.so* from all the .c files that are in the current directory.
 
-We will be using a bash script to run the script to create the 'liball.so' file from all the c.
-```
+We will be using a bash script to create and run the 'liball.so' file from all the c, 
