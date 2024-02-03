@@ -104,5 +104,5 @@ Let's run this command:
 nm -D --defined-only liball.so
 ```
 
-* The command [ '**./1-create_dynamic_lib.sh**' ] is executing a shell script named [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) in the current directory.
-* Then we go ahead to run the command [ '**nm -D --defined-only liball.so**' to display information about only the defined dynamic symbols in the 'liball.so' shared library.
+* The command [ **./1-create_dynamic_lib.sh** ] is executing a shell script named [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) in the current directory.
+* Then we go ahead to run the command [ **nm -D --defined-only liball.so** ] to display information about only the defined dynamic symbols in the 'liball.so' shared library.
