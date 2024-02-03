@@ -88,7 +88,8 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 
 ##
 __1. Without libraries what have we? We have no past and no future__ - [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) - A script that creates a dynamic library called *liball.so* from all the .c files that are in the current directory.
-
-     * We will be using a bash script to create a Dynamic Library called 'liball.so' from all the **.c** files, and using the ```gcc -c -fPIC *.c``` command and the ```gcc -shared -o liball.so *.o``` to assemble the files in one big library.
+```
+     * We will be using a bash script to create a Dynamic Library called 'liball.so' from all the **.c** files, and using the [ gcc -c -fPIC *.c ] command and a[ gcc -shared -o liball.so *.o ] to assemble the files in one big library.
 
      * We will create a  [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) file to contain the script created for the above Dynamic Library.
+```
