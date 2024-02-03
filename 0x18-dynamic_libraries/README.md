@@ -89,9 +89,9 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 ##
 __1. Without libraries what have we? We have no past and no future__ - [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) - A script that creates a dynamic library called *liball.so* from all the .c files that are in the current directory.
 
-* We will be using a bash script to create a Dynamic Library called 'liball.so' from all the **.c** files, and using the [ gcc -c -fPIC *.c ] command and a[ gcc -shared -o liball.so *.o ] to assemble the files in one big library.
+* We will be using a bash script to create a Dynamic Library called 'liball.so' from all the **.c** files, using the [ gcc -c -fPIC *.c ] command and [ gcc -shared -o liball.so *.o ] to assemble the files in one big library.
 
-* We will create a  [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) file to contain the script created for the above Dynamic Library.
+* We will create a [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) file to contain the script created for the above Dynamic Library.
 * After successfully creating the shell script, it's time to make the file executable to be able to run the script.
 We will be using the command below.
 ```
@@ -104,5 +104,5 @@ Let's run this command:
 nm -D --defined-only liball.so
 ```
 
-* The command [ **./1-create_dynamic_lib.sh** ] is executing a shell script named [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) in the current directory.
+* The command [ **./1-create_dynamic_lib.sh** ] is executing the shell script named [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) in the current directory.
 * Then we go ahead to run the command [ **nm -D --defined-only liball.so** ] to display information about only the defined dynamic symbols in the 'liball.so' shared library.
