@@ -106,3 +106,29 @@ nm -D --defined-only liball.so
 
 * The command [ **./1-create_dynamic_lib.sh** ] is executing the shell script named [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) in the current directory.
 * Then we go ahead to run the command [ **nm -D --defined-only liball.so** ] to display information about only the defined dynamic symbols in the 'liball.so' shared library.
+
+##
+__2. Let's call C functions from Python__ - [operations.c](./operations.c) - A dynamic library that contains C functions that can be called from Python.
+* We will be creating a function [operations.c](./operations.c) that adds, subtracts, multiply, divide and check the modulus of a number.
+* Once we have our function, we'll test our functions by calling them from Python.
+* Let's create a test file called [100-tests.py](./100-tests.py) and copy the code below to test our function(s).
+vagrant@ubuntu-focal:~$ cat 100-tests.py
+```
+import random
+import ctypes
+
+cops = ctypes.CDLL('./100-operations.so')
+a = random.randint(-111, 111)
+b = random.randint(-111, 111)
+print("{} + {} = {}".format(a, b, cops.add(a, b)))
+print("{} - {} = {}".format(a, b, cops.sub(a, b)))
+print("{} x {} = {}".format(a, b, cops.mul(a, b)))
+print("{} / {} = {}".format(a, b, cops.div(a, b)))
+print("{} % {} = {}".format(a, b, cops.mod(a, b)))
+```
+* Once we have our files created, we can test our code to see if properly working:
+```
+python3 100-tests.py
+```
+c'est fini :)
+
