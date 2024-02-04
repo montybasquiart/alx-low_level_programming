@@ -109,7 +109,7 @@ nm -D --defined-only liball.so
 
 ##
 __2. Let's call C functions from Python__ - [operations.c](./operations.c) - A dynamic library that contains C functions that can be called from Python.
-* We will be creating a function [operations.c](./operations.c) that adds, subtracts, multiply, divide and check the modulus of a number.
+* We will be creating a function with a file [operations.c](./operations.c) that adds, subtracts, multiply, divide and check the modulus of a number.
 * Once we have our function, we'll test our functions by calling them from Python.
 * Let's create a test file called [100-tests.py](./100-tests.py) and copy the code below to test our function(s).
 vagrant@ubuntu-focal:~$ cat 100-tests.py
@@ -132,3 +132,31 @@ python3 100-tests.py
 ```
 c'est fini :)
 
+__3. Code injection: Win the Giga Millions!__ - [101-make_me_win.sh](./101-make_me_win.sh) - Run two commands on the same server the Giga Millions program runs.
+* We are given a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9.
+  * Our mole got us a copy of the program, you can download it [here](./https://github.com/alx-tools/0x18.c). Our mole also gave us a piece of documentation:
+  ```
+  /* Giga Millions program
+  * Players may pick six numbers from two separate pools of numbers:
+  * - five different numbers from 1 to 75 and        
+  * - one number from 1 to 15
+  * You win the jackpot by matching all six winning numbers in a drawing.      
+  * Your chances to win the jackpot is 1 in 258,890,850          
+  *                                   
+  * usage: ./gm n1 n2 n3 n4 n5 bonus
+  ```
+  ## Instructions
+     * You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS) always checks its MD5 before running it
+     * The system is an Linux Ubuntu 16.04
+     * The server has internet access
+     * Our mole will be only able to run two commands from a shell script, without being detected by MSS
+     * Your shell script should be maximum 3 lines long. You are not allowed to use ;, &&, ||, |, ` (it would be detected by MSS), and have a maximum of two commands
+     * Our mole has only the authorization to upload one file on the server. It will be your shell script
+     * Our mole will run your shell script this way: mss@gm_server$ . ./101-make_me_win.sh
+     * Our mole will run your shell script from the same directory containing the program gm, exactly 98 seconds before MSS runs gm with my numbers: ./gm 9 8 10 24 75 9
+     * MSS will use the same terminal and session than our mole
+     * Before running the gm program, MSS always check the content of the directory
+     * MSS always exit after running the program gm
+     * TL;DR; This is what is going to happen
+
+Tip: LD_PRELOAD
