@@ -1,5 +1,33 @@
+# 0x01. C - Variables, if, else, while
+
 # A README file describing what each script is doing
 
+##
+
+## Concepts
+_For this project, we expect you to look at this concept:_
+ * [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
+
+
+# Resources
+**Read or watch:**
+ * [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240206T222629Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0765fbe800b572d05814601f3dcfc62049b5fe140f450f2485658af8ee21d180)(_You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”._)
+ * [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html)
+ * [integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html)
+ * [Arithmetic Operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm)
+ * [If statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html)
+ * [if…else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
+ * [Relational operators](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm)
+ * [Logical operators](https://intranet.alxswe.com/rltoken/TaX_y6ll4cRfxCrxG8ZuNQ)
+ * [while loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
+ * [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
+
+##
+__man or help:__
+
+      * _ascii (You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)_
+
+##
 0. Positive anything is better than negative nothing - [0-positive_or_negative.c](./0-positive_or_negative.c) - A program that assigns random number to a variable **n** each time it is executed and checks whether the number stored in the variable **n** is positive or negative.
 * The variable **n** will store a different value every time you will run this program
 * You don't have to understand what **rand**, **srand**, **RAND_MAX** do. Please do not touch this code
