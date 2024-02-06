@@ -1,4 +1,16 @@
+# 0x00. C - Hello, World
+
 # A README file describing what each script is doing
+
+##
+
+## Concepts
+_For this project, we expect you to look at these concepts:_
+
+     * [C programming](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240206T220826Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0d88cc870d8049523b78ee579af98bea0601e76b70f02e95bb6969cc273c2d2c)
+     * [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
+
+##
 
 0. Preprocessor - [0-preprocessor](./0-preprocessor) - A script that runs a C file through the preprocessor and save the result into another file.
 * The C file name is saved in the variable $CFILE
