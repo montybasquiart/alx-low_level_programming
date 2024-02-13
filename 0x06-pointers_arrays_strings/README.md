@@ -3,8 +3,7 @@
 # A README file describing what each script is doing
 
 ##
-
-###Concepts
+### Concepts
 __For this project, we expect you to look at this concept:__
 
  * [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
