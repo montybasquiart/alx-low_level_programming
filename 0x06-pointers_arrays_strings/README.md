@@ -31,4 +31,13 @@ __For this project, we expect you to look at this concept:__
    * Your function should work exactly like strncpy
 * FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
 ##
-
+3. strcmp - [3-strcmp.c](./3-strcmp.c) - A function that compares two strings.
+   * Prototype: int _strcmp(char *s1, char *s2);
+   * Your function should work exactly like strcmp
+* FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
+##
+4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy - [4-rev_array.c](./4-rev_array.c) - A function that reverses the content of an array of integers.
+   * Prototype: void reverse_array(int *a, int n);
+   * Where n is the number of elements of the array
+##
+5. Always look up - [5-string_toupper.c](./5-string_toupper.c) - 
