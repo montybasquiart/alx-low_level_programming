@@ -42,5 +42,8 @@ __For this project, we expect you to look at this concept:__
 ##
 5. Always look up - [5-string_toupper.c](./5-string_toupper.c) - A function that changes all lowercase letters of a string to uppercase.
    * Prototype: char *string_toupper(char *);
-
-
+##
+6. Expect the best. Prepare for the worst. Capitalize on what comes - [6-cap_string.c](./6-cap_string.c) - A function that capitalizes all words of a string.
+   * Prototype: char *cap_string(char *);
+   * Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+##
