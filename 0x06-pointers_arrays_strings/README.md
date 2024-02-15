@@ -73,7 +73,7 @@ __For this project, we expect you to look at this concept:__
    * You are not allowed to use arrays or pointers
    * You are not allowed to hard-code special values
 ##
-10. A dream doesn't become reality through magic; it takes sweat, determination and hard work - [102-magic.c](./102-magic.c) - Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
+10. A dream doesn't become reality through magic; it takes sweat, determination and hard work - [102-magic.c](./102-magic.c) - Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c), so that the program prints a[2] = 98, followed by a new line.
     * You are not allowed to use the variable a in your new line of code
     * You are not allowed to modify the variable p
     * You can only write one statement
