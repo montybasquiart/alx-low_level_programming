@@ -40,4 +40,7 @@ __For this project, we expect you to look at this concept:__
    * Prototype: void reverse_array(int *a, int n);
    * Where n is the number of elements of the array
 ##
-5. Always look up - [5-string_toupper.c](./5-string_toupper.c) - 
+5. Always look up - [5-string_toupper.c](./5-string_toupper.c) - A function that changes all lowercase letters of a string to uppercase.
+   * Prototype: char *string_toupper(char *);
+
+
