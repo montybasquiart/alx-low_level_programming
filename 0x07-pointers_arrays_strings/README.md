@@ -1,5 +1,14 @@
 # 0x07. C - Even more pointers, arrays and strings
 
+# A README file describing what each script is doing
+##
+**Concepts**
+_For this project, we expect you to look at these concepts:_
+ * [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
+ * [Pointers and arrays](https://intranet.alxswe.com/concepts/60)
+ ##
+ 
+
 0. memset - [0-memset.c](./0-memset.c) - A function that fills memory with a constant byte.
 	* Prototype: char *_memset(char *s, char b, unsigned int n);
 	* The _memset_(() function fills the first n bytes of the memory area pointed to by s with the constant byte b
