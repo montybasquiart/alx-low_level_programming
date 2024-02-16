@@ -1,4 +1,4 @@
-0x07. C - Even more pointers, arrays and strings
+# 0x07. C - Even more pointers, arrays and strings
 
 0. memset - [0-memset.c](./0-memset.c) - A function that fills memory with a constant byte.
 	* Prototype: char *_memset(char *s, char b, unsigned int n);
