@@ -12,11 +12,9 @@ __Read or watch:__
  * [Creating A Static “C” Library Using “ar” and “ranlib”](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
  * [Using A “C” Library In A Program](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
  * [What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)](https://www.youtube.com/watch?v=eW5he5uFBNM)
-
 ##
 #Tasks
 ##
-
 0. A library is not a luxury but one of the necessities of life - [libmy.a,](./libmy.a,) - A program that creates the static library [libmy.a](./libmy.a) containing all the functions listed below:
 int _putchar(char c);
 int _islower(int c);
