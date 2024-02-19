@@ -1,7 +1,22 @@
 # 0x09. C - Static libraries
 
 # A README file describing what each script is doing
+##
+__Concepts__
+_For this project, we expect you to look at this concept:_
+ * [C static libraries](https://intranet.alxswe.com/concepts/61)
+ ##
+# Resources
+__Read or watch:__
 
+What Is A “C” Library? What Is It Good For?
+Creating A Static “C” Library Using “ar” and “ranlib”
+Using A “C” Library In A Program
+What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)
+
+##
+#Tasks
+##
 0. A library is not a luxury but one of the necessities of life - [libmy.a,](./libmy.a,) - A program that creates the static library [libmy.a](./libmy.a) containing all the functions listed below:
 int _putchar(char c);
 int _islower(int c);
