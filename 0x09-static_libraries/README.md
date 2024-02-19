@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0x09. C - Static libraries
 
 # A README file describing what each script is doing
@@ -17,6 +18,13 @@ What is difference between Dynamic and Static library(Static and Dynamic linking
 ##
 #Tasks
 ##
+=======
+# 0x09-static_libraries
+
+# A README file describing what each script is doing
+
+
+>>>>>>> e8029527b3b3872468036f170e31cc36195edb81
 0. A library is not a luxury but one of the necessities of life - [libmy.a,](./libmy.a,) - A program that creates the static library [libmy.a](./libmy.a) containing all the functions listed below:
 int _putchar(char c);
 int _islower(int c);
