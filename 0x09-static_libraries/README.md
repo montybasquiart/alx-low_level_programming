@@ -13,7 +13,7 @@ __Read or watch:__
  * [Using A “C” Library In A Program](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
  * [What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)](https://www.youtube.com/watch?v=eW5he5uFBNM)
 ##
-#Tasks
+# Tasks
 ##
 0. A library is not a luxury but one of the necessities of life - [libmy.a,](./libmy.a,) - A program that creates the static library [libmy.a](./libmy.a) containing all the functions listed below:
 int _putchar(char c);
@@ -39,5 +39,5 @@ char *_strstr_(char *haystack, char *needle);
 
 * If you haven’t coded all of the above functions create empty ones with the right prototype.
 Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
-
+##
 1. Without libraries what have we? We have no past and no future - [create_static_lib.sh](./create_static_lib.sh) - A script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
