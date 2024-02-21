@@ -16,6 +16,7 @@ __Read or watch:__
 # Tasks
 ##
 0. A library is not a luxury but one of the necessities of life - [libmy.a,](./libmy.a,) - A program that creates the static library [libmy.a](./libmy.a) containing all the functions listed below:
+```
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -36,7 +37,7 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr_(char *haystack, char *needle);
-
+```
 * If you haven’t coded all of the above functions create empty ones with the right prototype.
 Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
 ##
