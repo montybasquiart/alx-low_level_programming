@@ -1,11 +1,18 @@
 # 0x10. C - Variadic functions
 
 ## A README file describing what each script is doing
-
+# Resources
+_Read or watch:_
+ * [stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
+ * [Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)
+ * [Const Keyword](https://www.youtube.com/watch?v=1W4oyuOdXv8)
+##
+#Tasks
+##
 0. Beauty is variable, ugliness is constant - [0-sum_them_all.c](./0-sum_them_all.c) -A function that returns the sum of all its parameters.
 	* Prototype: int sum_them_all(const unsigned int n, ...);
 	* If n == 0, return 0
-
+##
 1. To be is to be the value of a variable - [1-print_numbers.c](./1-print_numbers.c) - A function that prints numbers, followed by a new line.
 	* Prototype: void print_numbers(const char *separator, const unsigned int n, ...)*;
 	* where separator is the string to be printed between numbers
@@ -13,7 +20,7 @@
 	* You are allowed to use printf
 	* If separator is NULL, don’t print it
 	* Print a new line at the end of your function
-
+##
 2. One woman's constant is another woman's variable - [2-print_strings.c](./2-print_strings.c) - A function that prints strings, followed by a new line.
 	* Prototype: void print_strings(const char *separator, const unsigned int n, ...)*;
 	* where separator is the string to be printed between the strings
@@ -22,7 +29,7 @@
 	* If separator is NULL, don’t print it
 	* If one of the string is NULL, print (nil) instead
 	* Print a new line at the end of your function
-
+##
 3. To be is a to be the value of a variable - [3-print_all.c](./3-print_all.c) - A function that prints anything.
 	* Prototype: void print_all(const char * const format, ...);
 	* where format is a list of types of arguments passed to the function
@@ -39,3 +46,4 @@
 	* You can declare a maximum of 9 variables
 	* You are allowed to use printf
 	* Print a new line at the end of your function
+##
