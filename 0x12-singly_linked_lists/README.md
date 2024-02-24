@@ -1,6 +1,22 @@
 # 0x12. C - Singly linked lists
 
 ## A README file describing what each script is doing
+_Concepts_
+__For this project, we expect you to look at this concept:__
+ * [Data Structures](https://intranet.alxswe.com/concepts/120)
+##
+# Resources
+_Read or watch:_
+
+ * [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)(https://www.youtube.com/watch?v=Ycj1dSu9zs8&t=1158s)(https://www.youtube.com/watch?v=NUfGSiNDktQ)
+Google
+Youtube
+
+
+
+
+
+
 
 0. Print list - [0-print_list.c](./0-print_list.c) - A function that prints all the elements of a list_t list.
 	* Prototype: size_t print_list(const list_t *h);
