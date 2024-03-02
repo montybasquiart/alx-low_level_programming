@@ -6,8 +6,8 @@
 _Read or watch:_
 
  * [Operators in C - Part 6](https://www.youtube.com/watch?feature=shared&v=egUyaWtsQc0)
-Operators in C - Part 7 (Bitwise Operators-II)
-Bitwise Operators 1: The AND Operation
+ * [Operators in C - Part 7 (Bitwise Operators-II)](https://www.youtube.com/watch?feature=shared&v=LP0acaj3ZLE)
+ * [Bitwise Operators 1: The AND Operation](https://www.youtube.com/watch?feature=shared&v=bizj3dle8Qc)
 Bitwise Operators 2: The OR Operation
 Bitwise Operators 3: The XOR Operation
 Bitwise Operators 4: The Logical Shift Operation
