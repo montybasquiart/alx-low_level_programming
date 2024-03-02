@@ -2,6 +2,20 @@
 
 ## A README file describing what each script is doing
 ##
+# Resources
+_Read or watch:_
+
+ * [Operators in C - Part 6](https://www.youtube.com/watch?feature=shared&v=egUyaWtsQc0)
+Operators in C - Part 7 (Bitwise Operators-II)
+Bitwise Operators 1: The AND Operation
+Bitwise Operators 2: The OR Operation
+Bitwise Operators 3: The XOR Operation
+Bitwise Operators 4: The Logical Shift Operation
+Bit Manipulation
+Bitwise Operators
+Google
+Youtube
+##
 0. 0 - [0-binary_to_uint.c](./0-binary_to_uint.c) - A function that converts a binary number to an unsigned int.
 	* Prototype: unsigned int binary_to_uint(const char *b)*;
 	* where b is pointing to a string of 0 and 1 chars
