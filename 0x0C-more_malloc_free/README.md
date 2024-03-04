@@ -2,18 +2,33 @@
 
 ## A README file describing what each script is doing
 
+_Concepts_
+For this project, we expect you to look at this concept:
+
+ * [Automatic and dynamic allocation, malloc and free](https://intranet.alxswe.com/concepts/62)
+
+##
+# Resources
+_Read or watch:_
+##
+
+# Tasks
+##
+ * [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/should-i-cast-the-result-of-malloc)
+
+##
 0. Trust no one - [0-malloc_checked.c](./0-malloc_checked.c) - A function that allocates memory using malloc.
 	* Prototype: void *malloc_checked(unsigned int b)*;
 	* Returns a pointer to the allocated memory
 	* if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
-
+##
 1. string_nconcat - [1-string_nconcat.c](./1-string_nconcat.c) - A function that concatenates two strings.
 	* Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n)*;
 	* The returned pointer shall point to a newly allocated space in memory, which contains s1, followed by the first n bytes of s2, and null terminated
 	* If the function fails, it should return NULL
 	* If n is greater or equal to the length of s2 then use the entire string s2
 	* if NULL is passed, treat it as an empty string
-
+##
 2. _calloc_ - [2-calloc.c](./2-calloc.c) - A function that allocates memory for an array, using malloc.
 	* Prototype: void *_calloc_*(unsigned int nmemb, unsigned int size)*;
 	* The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
@@ -21,14 +36,14 @@
 	* If nmemb or size is 0, then _calloc_ returns NULL
 	* If malloc fails, then _calloc_ returns NULL
 * FYI: The standard library provides a different function: calloc. Run man calloc to learn more.
-
+##
 3. array_range_* - [3-array_range.c](./3-array_range.c) - A function that creates an array of integers.
 	* Prototype: int *array_range(int min, int max)*;
 	* The array created should contain all the values from min (included) to max (included), ordered from min to max
 	* Return: the pointer to the newly created array
 	* If min > max, return NULL
 	* If malloc fails, return NULL
-
+##
 4. _realloc_ - [100-realloc.c](./100-realloc.c) - A function that reallocates a memory block using malloc and free
 	* Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 	* where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)
@@ -41,7 +56,7 @@
 	* If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 	* Don’t forget to free ptr when it makes sense
 * FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
-
+##
 5. We must accept finite disappointment, but never lose infinite hope - [101-mul.c](./101-mul.c) - A program that multiplies two positive numbers.
 	* Usage: mul num1 num2
 	* num1 and num2 will be passed in base 10
