@@ -2,6 +2,18 @@
 
 ## A README file describing what each script is doing
 
+### Concepts
+__For this project, we expect you to look at this concept:__
+
+ * [Automatic and dynamic allocation, malloc and free](https://intranet.alxswe.com/concepts/62)
+##
+# Resources
+_Read or watch:_
+
+ * [0x0a - malloc & free - quick overview.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/a094c90e7f466bbeaa49cb24c8f04e7f27aaad41.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240227%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240227T101726Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=145f81136a7bf84f74a8ba3c4a3704a31f18cb9fcaf8091427edb46421142be2)
+ * [Dynamic memory allocation in C - malloc calloc realloc free (stop at 6:50)](https://www.youtube.com/watch?v=xDVC3wKjS64)
+##
+#Tasks
 0. Float like a butterfly, sting like a bee - [0-create_array.c](./0-create_array.c) - A function that creates an array of chars, and initializes it with a specific char.
 	* Prototype: char *create_array(unsigned int size, char c);
 	* Returns NULL if size = 0

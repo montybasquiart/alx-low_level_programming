@@ -1,7 +1,8 @@
 # A README file describing what each script is doing
 ##
 # Resources
-Read or watch:
+_Read or watch:_
+
  * [0x08. Recursion, introduction](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240218T223050Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d2d30b9c01e9d071c294b828b5e2b945412b268470470c70787b7634d11937f9]
  * [What on Earth is Recursion?](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
  * [C - Recursion](https://www.tutorialspoint.com/cprogramming/c_recursion.htm)
