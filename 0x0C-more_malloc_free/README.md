@@ -10,11 +10,9 @@ For this project, we expect you to look at this concept:
 ##
 # Resources
 _Read or watch:_
-##
-
-# Tasks
-##
  * [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/should-i-cast-the-result-of-malloc)
+##
+# Tasks
 
 ##
 0. Trust no one - [0-malloc_checked.c](./0-malloc_checked.c) - A function that allocates memory using malloc.
