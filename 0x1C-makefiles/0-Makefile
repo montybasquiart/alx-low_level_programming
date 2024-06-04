@@ -1,7 +1,3 @@
-all: school
-
-school: school.c main.c
-    gcc -Wall main.c school.c -o school
-
-clean:
-    rm -f *.o
+# Rule to build executable
+all: main.c school.c
+		gcc main.c school.c -o school
