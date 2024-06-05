@@ -10,18 +10,21 @@ def island_perimeter(grid):
     int: The perimeter of the island.
 
     Constraints:
-    - Grid is rectangular with width and height not exceeding 100.
-    - Island is surrounded by water with no internal lakes.
+    Grid is rectangular with width and height not exceeding 100.
+    Island is surrounded by water with no internal lakes.
 
     """
+    width = len(grid[0])
+    height = len(grid)
+    edges = 0
     perimeter = 0
     
-    for waterzone in range(len(grid)):
-        for landzone in range(len(grid[0])):
+    for waterzone in range(height):
+        for landzone in range(width):
             if grid[waterzone][landzone] == 1:
-                perimeter += 4
-                if waterzone > 0 and grid[waterzone - 1][landzone] == 1:
-                    perimeter -= 2
-                if landzone > 0 and grid[waterzone][landzone - 1] == 1:
-                    perimeter -= 2
-    return perimeter
+                perimeter += 1
+                if (waterzone > 0 and grid[waterzone - 1][landzone] == 1):
+                    edges += 1
+                if (landzone > 0 and grid[waterzone][landzone - 1] == 1):
+                    edges += 1
+    return perimeter * 4 - edges * 2
